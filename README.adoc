@@ -1,0 +1,14 @@
+= Converting blogger site over to Jekyll-Asciidoc site
+
+Exported posts from blogger and converted using Jekyll
+
+== Convert Blogger to Jekyll
+
+Exporting::
+https://www.peggyktc.com/2021/08/back-up-all-your-blogger-account-data.html
+
+Converting Instructions::
+https://import.jekyllrb.com/docs/blogger/
+
+Command::
+ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::Blogger.run({"source" => "wa-blog-10-13-2021.xml"})'
