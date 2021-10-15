@@ -11,4 +11,5 @@ Converting Instructions::
 https://import.jekyllrb.com/docs/blogger/
 
 Command::
+[source]
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::Blogger.run({"source" => "wa-blog-10-13-2021.xml"})'
